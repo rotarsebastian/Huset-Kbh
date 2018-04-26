@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="cs-loader">
+        <div class="cs-loader-inner">
+            <label>	●</label>
+            <label>	●</label>
+            <label>	●</label>
+            <label>	●</label>
+            <label>	●</label>
+            <label>	●</label>
+        </div>
+    </div>
+    <main>
+        <header class="appbar">
+            <svg class="menuIcon" viewBox="0 0 100 100">
+      <rect class="myrect" x="10" y="10" width="80" height="10" rx="5" ry="5"/>
+      <rect class="myrect" x="10" y="30" width="80" height="10" rx="5" ry="5"/>
+      <rect class="myrect" x="10" y="50" width="80" height="10" rx="5" ry="5"/>
+    </svg>
+        </header>
+
+        <aside class="menu hidden">
+            <ul>
+
+            </ul>
+        </aside>
+
+        <h1 class="events">Events</h1>
+        <div class="container-fluid">
+            <section id="eventList">
+                <template id="evTemp">
+        <article class="event">
+            <h1 id="title">Name</h1>
+            <img src="" alt="" class="pic">
+                <div class="time"><span>Time</span></div>
+                <div class="date"> Date</div>
+            <div class="descript"> Description</div>
+            <div class="category"> Category</div>
+            <div class="location"> Location</div>
+            <p class="readmore1"><a class="readmore" href="">read more..</a></p>
+            <h2 id="price">kr. <span>Price</span></h2>
+            
+        </article>
+            </template>
+            </section>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>
